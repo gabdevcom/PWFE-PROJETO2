@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grupo 7 </title>
+    <style> 
+        body{
+            background-color: pink;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1{
+            color: white;
+        }
+    
+        label{
+            color: white;
+        }
+
+        p#tabela{
+            color: white;
+        }
+        ul#lista{
+            color: white;
+        }
+        </style>
+</head>
+<body>
+    <h1> Jogos eliminatórios </h1>
+    <p> Insira o nome de 4 clubes! </p>
+    <label> Clube:
+     <input type="text" id="clube"> 
+    </label>
+    <button onclick="addClube()"> Adicionar clube </button>
+    <br> <br> 
+    <button onclick="listarClube()"> Lista de clubes </button>
+    <button onclick="tabelaJogos()"> Tabela de jogos </button> 
+    <ul id="lista"> </ul>
+
+    <p id="tabela"> </p>
+
+
+    <script src="JS/ex2_G7.js"> </script>
+</body>
+</html>
